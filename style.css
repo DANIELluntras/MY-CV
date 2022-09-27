@@ -1,0 +1,110 @@
+body {
+  border: solid 2px rgb(236, 197, 99);
+  margin: 30px;
+}
+* {
+  background-color: black;
+  padding: 0px;
+  margin: 0px;
+}
+/*that is for nav */
+nav {
+  background: black;
+  height: 30%;
+  width: 100%;
+  border: solid 2px rgb(236, 197, 99);
+}
+.title {
+  margin: 20px;
+  padding: 90px;
+  color: rgb(236, 197, 99);
+  text-align: left;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 70px;
+}
+.location {
+  margin: 20px;
+  font-size: 10px;
+  color: rgb(236, 197, 99);
+  font-family: "Gill Sans", sans-serif;
+}
+.Level {
+  margin: 20px;
+  font-size: 15px;
+  color: rgb(236, 197, 99);
+  font-family: "Gill Sans", sans-serif;
+  text-align: right;
+}
+.number {
+  margin: 20px;
+  font-size: 20px;
+  color: rgb(236, 197, 99);
+  font-family: "Gill Sans", sans-serif;
+}
+section {
+  border: solid 2px rgb(236, 197, 99);
+}
+
+.Right {
+  margin: 20px;
+  display: flex;
+  text-align: left;
+  height: 40px;
+  width: 40px;
+}
+h1 {
+  margin: 20px;
+  color: rgb(236, 197, 99);
+  font-family: "Gill Sans", sans-serif;
+}
+p {
+  margin: 20px;
+  color: rgb(236, 197, 99);
+  font-family: "Gill Sans", sans-serif;
+  text-align: right;
+  font-size: 25px;
+  margin: 20px 30px 30px 350px;
+}
+.footer {
+  padding: 10rem 3rem;
+  background-color: black;
+}
+
+.footer__nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.footer__item {
+  margin-right: 4rem;
+}
+
+.footer__link {
+  font-family: "Gill Sans", sans-serif;
+  font-size: 1.2rem;
+  color: rgb(236, 197, 99);
+  text-decoration: none;
+}
+
+.footer__logo {
+  font-family: "Gill Sans", sans-serif;
+  height: 5rem;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
+.footer__copyright {
+  font-size: 1.4rem;
+  color: rgb(236, 197, 99);
+  text-align: center;
+  margin: 5%;
+}
+
+.footer__copyright .footer__link {
+  font-size: 1rem;
+  color: rgb(236, 197, 99);
+  font-family: "Gill Sans", sans-serif;
+}
